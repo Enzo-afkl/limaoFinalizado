@@ -1,0 +1,187 @@
+body {
+  background: #fbb8e4
+  background: #eb00;
+  background: linear-gradient(
+    0deg,
+    #fbb8e4 0%,
+    rgba(114, 114, 114, 0.342) 100%
+  );
+}
+
+h1 {
+  text-align: center;
+  color: hwb(0 17% 83%);
+}
+#voltar {
+  display: flex;
+  justify-content: space-between;
+  background-color: hwb(0 0% 100% / 0.507);
+  border-radius: 21px;
+}
+#pc {display: none;}
+#voltar a {
+  text-decoration: none;
+
+  background-color: hwb(0 32% 67% / 0);
+  border-radius: 52px;
+  font-weight: bold;
+}
+
+#logo {
+  text-align: end;
+  color: hwb(0 32% 68%);
+  gap: 20px;
+}
+#imagem {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#menuMobile {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+#descriçaoMobile {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: hwb(0 12% 88% / 0.212);
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  gap: 30;
+}
+
+/* habilitar e desabilitar */
+#tablet {
+  display: none;
+}
+#pc {
+  display: none;
+}
+#logoTablet {
+  display: none;
+}
+#img {
+  display: none;
+}
+#imagem {
+  display: none;
+}
+#TextoDeLogin {
+  display: flex;
+  justify-content: center;
+}
+#descriçaoPc {
+  display: none;
+}
+#TextoDeCadastro {
+  display: flex;
+  justify-content: center;
+}
+
+#cadastro {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+button {
+  background: #fd5050cc;
+  color: hwb(0 0% 100% / 0.993);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  body {
+    background: ##77b27a;
+    background: #7fe9eb00;
+    background: linear-gradient(
+      0deg,
+      #77b27a 0%,
+      rgba(114, 114, 114, 0.342) 100%
+    );
+  }
+  #logoTablet {
+    text-align: end;
+    color: hwb(0 35% 65%);
+    padding: 12px;
+  }
+  #tablet {
+    display: block;
+  }
+  #pc {
+    display: none;
+  }
+  #imagem {
+    padding: auto;
+  }
+  #descriçaoPc {
+    display: none;
+  }
+  #logoTablet {
+    display: block;
+  }
+  #logo {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: #406591;
+    background: #7fe9eb00;
+    background: linear-gradient(
+      0deg,
+      #406591 0%,
+      rgba(114, 114, 114, 0.342) 100%
+    );
+  }
+  #pc {
+    display: flex;
+    
+  }
+  #img {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+  }
+  #pc {
+    display: flex;
+  }
+  #tablet {
+    display: none;
+  }
+  #logo {
+    display: block;
+  }
+  #logoTablet {
+    display: block;
+  }
+  #descriçaoPc {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: hwb(0 12% 88% / 0.212);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    gap: 30;
+  }
+}

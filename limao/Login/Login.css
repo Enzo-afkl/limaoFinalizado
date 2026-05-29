@@ -1,0 +1,85 @@
+body {
+        background: #19c8e7;
+      background: #7fe9eb;
+background: linear-gradient(0deg, #a5b89f 0%, rgba(124, 124, 124, 0.774) 100%); }
+
+    h1 { text-align: center; color: hwb(0 35% 65%); }
+   #voltar { display: flex;justify-content: space-between;background-color: hwb(0 0% 100% / 0.507); border-radius: 21px;
+}
+
+#voltar a { text-decoration: none; color: hwb(0 35% 65%); border-radius: 21px; font-weight: bold; }
+
+
+#imagem {display: flex; justify-content:space-between; gap: 20px }
+#logo { text-align: end; color: hwb(0 35% 65%); padding: 20px;}
+
+
+
+
+    #menuMobile {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 90%; 
+        margin: 0 auto;
+    }
+   #descriçaoMobile {display: flex; gap: 20px; padding: 10px;     width: 170%;
+    background-color: hwb(0 12% 88% / 0.212); border-radius: 10px; width: 50%; height: auto ; margin: 10px; gap: 30;}
+
+   /* habilitar e desabilitar */
+ #tablet {display: none;}
+ #pc {display: none;}
+#logoTablet {display: none;}
+#img {display: none;}
+#TextoDeLogin {display: flex; justify-content: center}
+
+
+#Login {     display: flex;
+    flex-direction: column-reverse;
+    align-items: center;}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+
+button {
+    background: #588a16cc;
+    color: rgb(75, 75, 75);
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+@media (min-width:480px){ body { background: #19c8e7;
+      background: #7fe9eb;
+background: linear-gradient(0deg, #75aca9 0%, rgba(75, 75, 75, 0.342) 100%); }
+#logoTablet { text-align: end; color: hwb(0 35% 65%); padding: 12px;}
+#tablet {display: block;}
+   #pc {display: none;}
+ #imagPc {display: none;} 
+#logoTablet {display: block;}
+}
+
+
+
+
+ @media (min-width:768px){ body { background: #19c8e7;
+      background: #7fe9eb;
+background: linear-gradient(0deg, #77b27a 0%, rgba(54, 54, 54, 0.342) 100%); }
+#pc {display: flex;}
+
+
+#ImPc { width: 100%;}
+   #pc {display: flex;}
+   #tablet {display: none;}
+   #logo {display: block;}
+   #logoTablet {display: block;}
+}
+
+

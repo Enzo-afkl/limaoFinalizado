@@ -1,0 +1,66 @@
+body {
+        background: #1c19e7b2;
+      background: #cc7febaf;
+background: linear-gradient(0deg, rgba(101, 127, 158, 0.664) 0%,  rgba(133, 133, 133, 0.342) 100%); }
+
+    h1 { text-align: center; color: hwb(0 35% 65%); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 20px; }
+   #voltar { display: flex; justify-content: space-between; background-color: hwb(0 0% 100% / 0.507); border-radius: 21px;  
+}
+
+#voltar a { text-decoration: none; border-radius: 21px; font-weight: bold; }
+
+
+#imagem {display: flex; justify-content:space-between; gap: 20px }
+#logo { text-align: end; color: hwb(0 35% 65%); padding: 20px;}
+
+
+
+#Mobile {display: block;}
+    #menuMobile {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 90%; 
+        margin: 0 auto;
+    }
+   #descriçaoMobile {display: flex; gap: 20px; padding: 10px; background-color: hwb(0 12% 88% / 0.212); border-radius: 10px; width: auto; height: auto ; margin: 20px; gap: 30; flex-wrap: wrap;}
+
+   /* habilitar e desabilitar */
+ #Tablet {display: none;}
+ #pc {display: none;}
+#logoTablet {display: none;}
+#img {display: none;}
+#TextoDeLogin {display: flex; justify-content: center}
+
+
+
+@media (min-width:480px){ body { background: #19c8e7;
+      background: #7fe9eb;
+background: linear-gradient(0deg, rgb(124, 182, 179)   0%,  rgba(133, 133, 133, 0.342) 100%); }
+#logoTablet { text-align: end; color: hwb(0 35% 65%); padding: 12px;}
+#Tablet {display: block;}
+   #pc {display: none;}
+   #imagem {display: block;}
+#logo {display: block;}
+
+#logoTablet {display: block;}
+#Mobile {display: block;}
+}
+
+
+ @media (min-width:768px){ body { background: #19c8e7;
+      background: #7fe9eb;
+background: linear-gradient(0deg, rgb(120, 137, 184) 0%, rgba(133, 133, 133, 0.342) 100%); }
+
+#pc {display: flex;}
+#imagem {display: flex; justify-content: space-between; gap: 70px;
+}
+#Mobile {display: none;}
+   #pc {display: flex;}
+   #Tablet {display: none;}
+   #logo {display: block;}
+   #logoTablet {display: block;}
+
+}
+   
+

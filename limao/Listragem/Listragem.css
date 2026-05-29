@@ -1,0 +1,126 @@
+ body {
+    background: #406591;
+    background: #7fe9eb00;
+    background: linear-gradient(
+      0deg,
+     #628988,
+      rgba(158, 158, 158, 0.349) 100%
+    );
+  }
+
+    h1 { text-align: center; color: hwb(0 35% 65%);}
+   #voltar { display: flex;justify-content: space-between; background-color: hwb(0 0% 100% / 0.473); border-radius: 21px;
+}
+
+#voltar a { text-decoration: none;  background-color: hwb(0 0% 100% / 0); border-radius: 21px; font-weight: bold; }
+
+
+#imagem {display: flex; justify-content:space-between; gap: 20px }
+#logo { text-align: end; color: hwb(0 35% 65%); padding: 20px;}
+
+
+
+
+    #menuMobile {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 90%; 
+        margin: 0 auto;
+    }
+   #descriçaoMobile {display: flex; gap: 20px; padding: 10px;background-color: hwb(0 12% 88% / 0.212); border-radius: 10px; width: auto; height: auto ; margin: 20px; gap: 30; flex-wrap: wrap;}
+
+   /* habilitar e desabilitar */
+ #tablet {display: none;}
+ #pc {display: none;}
+#logoTablet {display: none;}
+#img {display: none;}
+
+#mobile {display: none}
+
+   #Usapato {width: 100%;}
+#Dissapato { width: 100%;}
+#Tessapato {width: 100%;}
+
+
+#TexMobile {display: flex;
+        gap: 6px;
+        padding: 2%;
+        background-color: hwb(0 94% 6%);
+        border-radius: 10px;
+        width: auto;
+        height: auto;
+      flex-wrap: wrap;
+   margin: 7%;
+justify-content: center}
+#TexMobile a { color: hwb(0 35% 65%); font-weight: bold; text-decoration: none; display: flex;
+    color: hwb(0 35% 65%);
+    font-weight: bold;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center; }
+#TexMobile img { border-radius: 10px; }
+
+/* Tablet */
+@media (min-width:480px){ body { background: #19c8e7;
+      background: #7fe9eb;
+background: linear-gradient(0deg, #7372ab 0%, rgba(121, 121, 121, 0.342) 100%); }
+#logoTablet { text-align: end; color: hwb(0 35% 65%); padding: 12px;}
+
+   #pc {display: none;}
+ #imgTablet {display: none;}
+#logo {display: block;}
+#logoTablet {display: block;}
+#Mobile {display: none;}
+#tablet {display: block;}
+#TexTablet {display: flex;
+        gap: 4px;
+        padding: 4px;
+        background-color: hwb(0 94% 6%);
+        border-radius: 10px;
+        width: auto;
+        height: auto;
+          flex-wrap: nowrap;
+        }
+
+
+#descriçaotablet {display: flex; gap: 20px; padding: 5px;background-color: hwb(0 12% 88% / 0.212); border-radius: 10px; width: auto; height: auto ; margin: 8px; gap: 30; flex-wrap: wrap;}
+
+#Textablet a { color: hwb(0 35% 65%); font-weight: bold; text-decoration: none; }
+#Textablet img { border-radius: 10px; }
+ h5 {color: hwb(0 35% 65%);
+        font-weight: bold;
+        text-decoration: none;}
+
+
+
+
+/* Pc */
+ @media (min-width:768px){ body { background: #19c8e7;
+      background: #7fe9eb;
+background: linear-gradient(0deg, #7372abb2 0%, rgba(158, 69, 66, 0.158) 100%); }
+
+#imagem {display: flex; justify-content: space-between; gap: 70px;
+}
+   #pc {display: flex; justify-content: center;}
+   #tablet {display: none;}
+   #logo {display: block;}
+   #logoTablet {display: block;}
+}
+#TexPc {display: flex;
+        gap: 4px;
+        padding: 4px;
+        background-color: hwb(0 94% 6%);
+        border-radius: 10px;
+        width: auto;
+        height: auto;
+          flex-wrap: nowrap;}
+
+#Umsapato {width: 100%;}
+#Doissapato { width: 100%;}
+#Tressapato {width: 100%;}
+
+#descriçaoPc {display: flex; gap: 20px; padding: 5px;background-color: hwb(0 12% 88% / 0.212); border-radius: 10px; width: auto; height: auto ; margin: 6px; gap: 30; flex-wrap: wrap;}
+
+#TexPc a { color: hwb(0 35% 65%); font-weight: bold; text-decoration: none; }
+#TexPc img { border-radius: 10px; }
